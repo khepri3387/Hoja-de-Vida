@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,user-sacalable=no">
+  <meta name="author" content="Lázaro Mora">
+  <meta name="keywords" content="estructura de html">
+  <meta name="description" content="examen de curso de fundamentos de html">
+  <title>Hoja de Vida</title>
+</head>
+<body>
+  <header>
+    <img src="../imagenes/logo.svg" width="150px" height="200px" alt="El logo para mi hoja de vida" title="Logo de Khepri3387">
+   <h1 id="puntoeducacion">Curriculum Vitae</h1>
+  </header>
+  <nav>
+   <h2>Lázaro Mora</h2>
+    <a href="../index.html">Inicio</a><br/>
+    <a href="#puntoeducacion">Educación</a><br/>
+    <a href="">Experiencia</a><br/>
+  </nav>
+  <section>
+  <article>
+    <h3>Datos Personales</h3>
+    <p>
+     <b>Nombre(s):</b>Lázaro Ariel<br/>
+     <b>Apellidos:</b>Mora Rodríguez<br/>
+     <b>Fecha de Nacimiento:</b>3 de Marzo de 1987<br/>
+     <b>Lugar de Nacimiento:</b>Monterrey, N.L. México
+    </p>
+  </article>
+  <hr/>
+  <article>
+    <h3>Educación</h3>
+    <table border="1" name="Mi Educación">
+      <tr>
+        <td>Año</td>
+        <td>Institución</td>
+        <td>Lugar</td>
+        <td>¿Culminó?</td>
+      </tr>
+      <tr>
+        <td>1993-99</td>
+        <td>Primaria Lic. Agustin Yáñez</td>
+        <td>Monterrey</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>1999-02</td>
+        <td>Secundaria Dr. Jaime Torres Bodet</td>
+        <td>Monterrey</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2002-04</td>
+        <td>Preparatoria No. 15 Florida</td>
+        <td>Monterrey</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2004-09</td>
+        <td>UANL Facultad de Ciencias Biológicas</td>
+        <td>San Nicolás</td>
+        <td>Si</td>
+      </tr>
+    </table>
+  </article>
+  <hr/>
+  <article>
+    <h3>Agregar Estudios<h3>
+      <form method="get" name="formularioestudios" autocomplete="off">
+        <p><strong>Año:</strong><input type="number" min="2000" max="2030" required></p>
+        <p><strong>Institución:</strong><input type="text" size="74" required></p>
+        <table>
+          <tr>
+            <th>Lugar:</th>
+            <td><textarea rows="2" cols="80"></textarea></td>
+          </tr>
+        </table>
+        <p><strong>¿Culminó?</strong><input type="radio" id="parasi" name="culmino"><label for="parasi">Si</label>
+        <input type="radio" id="parano" name="culmino"><label for="parano">No</label><br/>
+      <input type="submit"></p>
+      </form>
+  </article>
+  </section>
+  <hr/>
+  <footer>
+    <p>
+      <b>Correo:</b>lazari3387@gmail.com<br/>
+      <b>Telefono:</b>81-20-65-85-91<br/>
+      <b>Direccion:</b>Col. Alta Vista, Calle Luis Cabrera #2749 Mty, NL, México
+    </p>
+  </footer>
+</body>
+</html>
